@@ -41,14 +41,16 @@
 .play-icons {
   display: none;
   position: absolute;
-  filter: invert(100);
   z-index: 200;
 }
 
 .play-icons .icon {
   width: 62px;
   margin: 0 10px;
-  transition: all 1s ease-in-out;
+  filter: invert(100%);
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .play-icons .heart,
@@ -58,6 +60,7 @@
 
 .play-icons .icon:hover {
   transform: scale(1.2);
+  opacity: 1;
 }
 
 .album-cover {
