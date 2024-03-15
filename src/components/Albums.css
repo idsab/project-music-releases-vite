@@ -70,11 +70,12 @@
   font-size: 14px;
   color: #a0a0a0;
   text-decoration: none;
+  transition: all 0.5s ease;
 }
 
-.artist-link:hover {
+.artist-link a:hover {
   text-decoration: underline;
-  color: #a0a0a0;
+  color: white;
 }
 
 .album-link:hover {
